@@ -1,0 +1,17 @@
+.home-page-container {
+  padding: 20px 40px;
+}
+.cards {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.infinity-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
