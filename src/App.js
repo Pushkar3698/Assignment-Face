@@ -8,7 +8,7 @@ function App() {
   const [isAuth, setisAuth] = useState(false);
 
   const loginHandler = (val) => {
-    setisAuth(true);
+    setisAuth(val);
   };
 
   return (
@@ -16,7 +16,9 @@ function App() {
       <Route path="/" element={<Login loginHandler={loginHandler} />} />
       <Route
         path="/home"
-        element={!isAuth ? <Navigate to={"/"} /> : <Home />}
+        element={
+          !isAuth ? <Navigate to={"/"} /> : <Home loginHandler={loginHandler} />
+        }
       />
     </Routes>
   );
