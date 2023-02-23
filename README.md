@@ -52,6 +52,7 @@ Contributions are welcome! To contribute to the project, follow these steps:
 - [React-dom](https://reactjs.org/docs/react-dom.html)
 - [React-router-dom](https://reactrouter.com/docs)
 - [IntersectionObserve api](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+- [framer-motion](https://www.framer.com/motion/)
 
 
 
@@ -84,6 +85,8 @@ The application was built using the following technologies:
 5. Loading.io : A library for displaying loading indicators in Js applications. 
 
 6. Intersection Observer Api : The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport.
+
+7. Framer-motion : Framer Motion is an open source, production-ready library that’s designed for all creative developers.
 ```
 ## API Reference
 
