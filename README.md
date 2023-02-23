@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Infinite Scrolling Contact List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built using React that displays an infinite scrolling list of contacts. The contacts are loaded dynamically from an external API as the user scrolls down the list.
+## Table of Contents
 
-## Available Scripts
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Documentations](#Documentations)
+- [Dependencies](#dependencies)
+- [Tech Stack](#techstack)
+- [License](#License)
+- [Badges](#Badges)
+## Installation
 
-In the project directory, you can run:
 
-### `npm start`
+To get started with the Project, you'll need to have Node.js installed on your machine. Once you have those installed, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+Clone the repository to your local machine: git clone https://github.com/Pushkar3698/Assignment-Face
+Navigate to the project directory
+Install the required dependencies: npm install
+Start the development server: npm start
+Open a web browser and go to http://localhost:3000 to view the application.rt
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following features are available in the API:
 
-### `npm run build`
+- Infinite scrolling: contacts are loaded as the user scrolls down the list
+- Responsive design: the application is optimized for desktop and mobile devices
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! To contribute to the project, follow these steps:
+```bash
+1. Fork the repository and create a new branch for your changes.
+2. Make your changes and test them locally.
+3. Create a pull request with a description of your changes.
+4. Wait for a code review and approval before merging.
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Note**: Please ensure that your code adheres to the existing style and passes the unit tests before submitting a pull request.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Documentation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [React-Loader](https://loading.io/css/)
+- [React-dom](https://reactjs.org/docs/react-dom.html)
+- [React-router-dom](https://reactrouter.com/docs)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The following dependencies are required to run the Face-pre assignment naming infinity Scroll:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+"dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.8.1",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  }
 
-### Code Splitting
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The application was built using the following technologies:
+```bash
+1. React: A JavaScript library for building user interfaces. React is used to create reusable UI components that can be combined to create complex web applications.
 
-### Analyzing the Bundle Size
+2. React Router: A routing library for React applications. React Router is used to manage the navigation between different views in the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Css: Responsiveness is achieved by using plain css.Entire project is made using plain Css.
 
-### Making a Progressive Web App
+5. Loading.io : A library for displaying loading indicators in Js applications. 
+```
+## API Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The application uses the Random User API to fetch contact data. This API generates random user data, including names, email addresses, and profile pictures. The application makes API requests to this service as the user scrolls down the contact list, allowing it to display an unlimited number of contacts without performance issues.
+## License
 
-### Advanced Configuration
+- [MIT](https://choosealicense.com/licenses/mit/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Badges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[![React](https://img.shields.io/badge/React-17.0.2-blue)](https://reactjs.org/)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![React Router](https://img.shields.io/badge/React_Router-5.2.0-green)](https://reactrouter.com/)
